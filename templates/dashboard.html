@@ -1,6 +1,6 @@
 {% extends "layout.html" %}
 
 {% block body %}
-<h1>DASHBOARD</h1>
-<h2><small>Welcome {{ session.username }}</small></h2>
+<h1 class="pt-5">{{ session.username.upper() }}'S DASHBOARD</h1>
+<h2><small>Welcome, {{ session.username }}</small></h2>
 {% endblock %}
